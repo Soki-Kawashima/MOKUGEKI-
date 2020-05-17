@@ -60,5 +60,10 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>位置情報の共有を容易にするために利用されます。</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>位置情報の共有を容易にするために利用されます。</string>
+    
 </dict>
 </plist>

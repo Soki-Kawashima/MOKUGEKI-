@@ -15,6 +15,7 @@
 		44B15065246E69C7009BBE95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B15063246E69C7009BBE95 /* LaunchScreen.storyboard */; };
 		44B15070246E69C7009BBE95 /* MOKUGEKI__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B1506F246E69C7009BBE95 /* MOKUGEKI__Tests.swift */; };
 		44B1507B246E69C7009BBE95 /* MOKUGEKI__UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B1507A246E69C7009BBE95 /* MOKUGEKI__UITests.swift */; };
+		44B1508A246E6AFF009BBE95 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B15089246E6AFF009BBE95 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		44B15076246E69C7009BBE95 /* MOKUGEKI!!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MOKUGEKI!!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B1507A246E69C7009BBE95 /* MOKUGEKI__UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOKUGEKI__UITests.swift; sourceTree = "<group>"; };
 		44B1507C246E69C7009BBE95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44B15089246E6AFF009BBE95 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44B1508A246E6AFF009BBE95 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 				44B1506E246E69C7009BBE95 /* MOKUGEKI!!Tests */,
 				44B15079246E69C7009BBE95 /* MOKUGEKI!!UITests */,
 				44B15056246E69C6009BBE95 /* Products */,
+				44B15088246E6AFF009BBE95 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +130,14 @@
 				44B1507C246E69C7009BBE95 /* Info.plist */,
 			);
 			path = "MOKUGEKI!!UITests";
+			sourceTree = "<group>";
+		};
+		44B15088246E6AFF009BBE95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44B15089246E6AFF009BBE95 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
